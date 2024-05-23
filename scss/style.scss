@@ -1,0 +1,141 @@
+@import url(_mixins.scss);
+@import url(_reset.scss);
+@import url(_variables.scss);
+
+nav {
+  ul {
+    li {
+      display: inline-block;
+    }
+  }
+}
+li {
+  margin: 30px;
+}
+
+.conteiner {
+  .card {
+    .img1 {
+      background-image: url(../img/2.jpg);
+      margin-left: 138px;
+      height: 186px;
+      width: 362px;
+      text-align: center;
+      display: inline-block;
+      color: floralwhite;
+    }
+  }
+}
+
+h1 {
+  margin-left: 137px;
+}
+.conteiner {
+  .card {
+    .img2 {
+      background-image: url(../img/3.jpg);
+      margin-left: 30px;
+      display: flex;
+      height: 186px;
+      width: 362px;
+      text-align: center;
+      color: floralwhite;
+      display: inline-block;
+    }
+  }
+}
+.conteiner {
+  .card {
+    .img3 {
+      background-image: url(../img/4.jpg);
+      margin-left: 30px;
+      display: flex;
+      height: 186px;
+      width: 362px;
+      text-align: center;
+      color: floralwhite;
+      display: inline-block;
+    }
+  }
+}
+
+.pp {
+  background-color: #dad5d5;
+  display: inline-block;
+  margin-left: 138px;
+
+  height: 170px;
+  width: 362px;
+}
+.ppp {
+  background-color: #dad5d5;
+  display: inline-block;
+  width: 362px;
+  height: 170px;
+
+  margin-left: 30px;
+}
+.conteiner {
+  .img4 {
+    background-image: url(../img/5.jpg);
+    margin-left: 138px;
+    width: 700px;
+    text-align: center;
+    color: white;
+    height: 430px;
+  }
+}
+.conteiner {
+  .img5 {
+    background-image: url(../img/6.jpg);
+    margin-left: 138px;
+    margin-top: 42px;
+    width: 700px;
+    height: 430px;
+  }
+}
+.conteiner {
+  .img6 {
+    background-image: url(../img/7.jpg);
+    height: 212px;
+    width: 300px;
+  }
+}
+
+.conteiner {
+  .img7 {
+    background-image: url(../img/8.jpg);
+    height: 212px;
+    width: 300px;
+    margin-top: 98px;
+  }
+}
+
+.conteiner {
+  .img8 {
+    background-image: url(../img/9.jpg);
+    height: 212px;
+    margin-top: 98px;
+    width: 300px;
+  }
+}
+
+.small {
+  display: inline-block;
+}
+.big {
+  display: inline-block;
+}
+footer {
+  background-color: #243043;
+}
+footer {
+  nav {
+    ul {
+      li {
+        margin-top: 30px;
+        color: #dad5d5;
+      }
+    }
+  }
+}

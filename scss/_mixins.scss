@@ -1,0 +1,13 @@
+@mixin Container($justify, $items, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $items;
+  flex-direction: $direction;
+}
+
+@mixin image($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
